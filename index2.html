@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pawan: {
+                            100: "#32a4a8",
+                            200: "#247A45"
+                        }
+                    },
+                    fontSize: {
+                        85: "85px"
+                    }
+
+                },
+                'fontFamily': {
+                    'netflix': ['Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', 'sans-serif']
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-black">
+    <div class="bg-[url(neflix-bg.jpg)] h-screen bg-cover bg-no-repeat bg-center shadow-[10px_10px_20px_10px_black_inset] ">
+        <div class="grid grid-cols-3   ">
+            <img src="logo.png" class="h-[100px] ml-[150px] col-span-2 ml-[20px] ">
+            <div class="grid grid-cols-2 m-auto gap-5  ">
+                <select name="" id="" class="bg-black bg-transparent border-white  border-[1px] text-white  ">
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
+                <button class="bg-red-700 text-white rounded-lg w-20 h-8">Sign up</button>
+            </div>
+        </div>
+        <p class="text-white text-center font-extrabold text-5xl mt-40 ">Unlimited movies, TV shows and more</p>
+        <p class="text-white text-center text-2xl mt-7 ">Watch anywhere. Cancel anytime.</p>
+        <p class="text-white text-center text-2xl mt-7 ">Ready to watch? Enter your email to create or restart your
+            membership.</p>
+        <div class="max-w-[700px] m-auto pt-[20px]">
+            <div class="grid grid-cols-[70%_auto] gap-2">
+                <input type="text" placeholder="Email Address "
+                    class="h-[50px] bg-transparent border-[1px] border-[white] text-white pl-[20px]">
+                <button class="rounded-lg text-white bg-red-700">Get Started ></button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <section class="border-t-[5px] bg-black border-t-[grey] "></section>
+    <div class="grid grid-cols-4 ">
+        <div class="col-span-2 text-white mt-[150px] ml-[150px]">
+            <p class="font-extrabold text-4xl  ">Enjoy on your TV</p>
+            <p class="mt-3 font-2xl text-xl">Watch on smart TVs, PlayStation, Xbox, Chromecast, <br>Apple TV, Blu-ray
+                players and more.</p>
+        </div>
+        <div class="col-span-2 relative">
+            <video autoplay class=" absolute left-[12%] top-[23%] w-[60%]">
+                <source src="autoplay.mp3" type="video/mp4">
+            </video>
+            <img src="tv.png" alt="" class="z-[2] relative">
+        </div>
+    </div>
+
+    <section class="border-t-[5px] bg-black border-t-[grey] "></section>
+    <div class="grid grid-cols-4  ">
+
+
+
+        <div class="col-span-2 relative ">
+            <img src="mobile-0819.jpg" class="w-[60%] ml-[30%] mt-[10%]" alt="">
+            <div class="'border-8 border-white  text-white top-[80%] left-[50%] absolute">
+                <img src="boxshot.png" class="w-[50%]" alt="">
+            </div>
+        </div>
+        <div class="col-span-2 text-white mt-[150px] ml-[150px]">
+            <p class="font-extrabold text-4xl leading-[50px] ">Download your shows to <br> watch offline</p>
+            <p class="mt-3 font-2xl text-xl ">Save your favourites easily and always have <br> something to watch.</p>
+        </div>
+    </div>
+    </div>
+
+
+    <section class="border-t-[5px] bg-black border-t-[grey] "></section>
+    <div class="grid grid-cols-4 ">
+        <div class="col-span-2 text-white mt-[150px] ml-[150px]">
+            <p class="font-extrabold text-4xl leading-[50px] ">Watch everywhere</p>
+            <p class="mt-3 font-2xl text-xl">Stream unlimited movies and TV shows on your <br> phone, tablet, laptop,
+                and TV.</p>
+        </div>
+        <div class="col-span-2 relative">
+            <video autoplay class=" absolute left-[15%] top-[10%] w-[54%]">
+                <source src="video-devices-in.m4v" type="video/mp4">
+            </video>
+            <img src="device-pile-in.png" alt="" class="z-[2] relative">
+        </div>
+    </div>
+    <section class="border-t-[5px] bg-black border-t-[grey] "></section>
+    <div class="grid grid-cols-2  ">
+        <div class="">
+            <div class="  m-auto w-[75%] mt-[6%] ml-[30%]">
+                <img src="children.png" alt="">
+            </div>
+        </div>
+        <div class=" text-white mt-[150px] ml-[150px]">
+            <p class="font-extrabold text-4xl  ">Create profiles for kids</p>
+            <p class="mt-3 font-2xl text-xl">Send children on adventures with their favourite <br> characters in a space
+                made just for them—free with <br> your membership.</p>
+        </div>
+    </div>
+    <section class="border-t-[5px] bg-black border-t-[grey] "></section>
+    <div class="">
+        <p class="font-extrabold text-4xl ml-[35%] mt-[60px] font-netflix text-white">Frequently Asked Questions</p>
+        <br>
+
+        <div class=" text-white font-medium text-2xl  mx-auto py-[30px] ">
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] py-[20px] px-[20px] flex relative hover:bg-[rgb(65,65,65)]">
+                <h2>What is Netflix?</h2>
+                <p class="absolute right-10">+</p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] text-[20px]  py-[20px] px-[20px] hidden hidden ">
+                <p class="font-normal">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.</p>
+                <br>
+                <p class="font-normal">You can watch as much as you want, whenever you want, without a single ad – all
+                    for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] py-[20px] px-[20px] flex relative hover:bg-[rgb(65,65,65)]">
+                <h2>What is Netflix?</h2>
+                <p class="absolute right-10">+</p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] text-[20px]  py-[20px] px-[20px] hidden ">
+                <p class="font-normal">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.</p>
+                <br>
+                <p class="font-normal">You can watch as much as you want, whenever you want, without a single ad – all
+                    for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </div>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] py-[20px] px-[20px] flex relative hover:bg-[rgb(65,65,65)]">
+                <h2>What is Netflix?</h2>
+                <p class="absolute right-10">+</p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] text-[20px]  py-[20px] px-[20px] hidden ">
+                <p class="font-normal">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.</p>
+                <br>
+                <p class="font-normal">You can watch as much as you want, whenever you want, without a single ad – all
+                    for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] py-[20px] px-[20px] flex relative hover:bg-[rgb(65,65,65)]">
+                <h2>What is Netflix?</h2>
+                <p class="absolute right-10">+</p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] text-[20px]  py-[20px] px-[20px] hidden ">
+                <p class="font-normal">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.</p>
+                <br>
+                <p class="font-normal">You can watch as much as you want, whenever you want, without a single ad – all
+                    for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </div>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] py-[20px] px-[20px] flex relative hover:bg-[rgb(65,65,65)]">
+                <h2>What is Netflix?</h2>
+                <p class="absolute right-10">+</p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] text-[20px]  py-[20px] px-[20px] hidden hidden ">
+                <p class="font-normal">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.</p>
+                <br>
+                <p class="font-normal">You can watch as much as you want, whenever you want, without a single ad – all
+                    for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] py-[20px] px-[20px] flex relative hover:bg-[rgb(65,65,65)]">
+                <h2>What is Netflix?</h2>
+                <p class="absolute right-10">+</p>
+            </div>
+            <section class="border-t-[5px] bg-black border-t-[black] "></section>
+            <div class="bg-[#2d2d2d] ml-[12%] mr-[12%] text-[20px]  py-[20px] px-[20px] hidden ">
+                <p class="font-normal">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries and more – on thousands of internet-connected devices.</p>
+                <br>
+                <p class="font-normal">You can watch as much as you want, whenever you want, without a single ad – all
+                    for one low monthly
+                    price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+            </div>
+        </div>
+        <p class="mt-[30px] text-white text-center text-2xl">Ready to watch? Enter your email to create or restart your
+            membership.</p>
+        <div class="max-w-[700px] m-auto pt-[20px]">
+            <div class="grid grid-cols-[70%_auto] gap-2 mb-[60px] ">
+                <input type="text" placeholder="Email Address "
+                    class="h-[50px] bg-transparent border-[1px] rounded-lg border-[white] text-white pl-[20px]">
+                <button class="rounded-lg text-white bg-red-700">Get Started ></button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <section class="border-t-[5px] bg-black border-t-[grey] "></section>
+    <p class="text-white text-center mr-[775px] mt-[40px] font-[Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif]">Questions? call <a href=""
+            class="underline-offset-1">000-800-919-1694</a></p>
+    <br>
+    <div class="grid grid-rows-4 grid-flow-col gap-4 text-white text-justify ml-[250px] underline underline-offset-1">
+        <a href="">FAQ</a>
+        <a href="">Investor Relation</a>
+        <a href="">Privacy</a>
+        <a href="">Speed Test</a>
+        <a href="">Help-Center</a>
+        <a href="">Jobs</a>
+        <a href="">Cookie-Prefrences</a>
+        <a href="">Legal Notices</a>
+        <a href="">Accounts</a>
+        <a href="">Way to watch</a>
+        <a href="">Corporate Information</a>
+        <a href="">Only on Netflix</a>
+        <a href="">Media center</a>
+        <a href="">terms and Conditions</a>
+        <a href="">Contact us</a>
+    </div>
+    <div>
+        <select name="" id=""
+            class="bg-black w-20 h-8 bg-transparent border-white  border-[1px] text-white ml-[17%] mt-[20px] ">
+            <option value="">English</option>
+            <option value="">Hindi</option>
+        </select>
+    </div> 
+    <p class="bg-black  text-white ml-[17%] mt-[20px]">Netflix India</p> 
+</body>
+
+</html>
